@@ -1,6 +1,6 @@
 // @flow
 import test from 'tape';
-import greeter from '../src/main';
+import greeter from '../src/index';
 
 test('greets a user with `Hello, {name}` message', async (t) => {
   const result = await greeter('John');
